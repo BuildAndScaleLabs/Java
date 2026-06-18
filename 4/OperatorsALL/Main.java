@@ -1,15 +1,13 @@
- class Main{
+class Main{
 
     public static void main(String[] args){
-
-
        // arithmetic operator
-       // relational operator 
+       // relational operator
        // bitwise operator
        // bitwise shift operator
-       // logical operaor 
+       // logical operaor
        // assignement opeartor
        // operator precedance
-     
+
     }
  }

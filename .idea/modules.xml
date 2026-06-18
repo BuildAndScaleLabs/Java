@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/2.StoreNegativeAndFloatingPointNumber/2.StoreNegativeAndFloatingPointNumber.iml" filepath="$PROJECT_DIR$/2.StoreNegativeAndFloatingPointNumber/2.StoreNegativeAndFloatingPointNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.TypeConversionInJava/3.TypeConversionInJava.iml" filepath="$PROJECT_DIR$/3.TypeConversionInJava/3.TypeConversionInJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaFromStarting.iml" filepath="$PROJECT_DIR$/JavaFromStarting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OperatorsALL/OperatorsALL.iml" filepath="$PROJECT_DIR$/OperatorsALL/OperatorsALL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.OperatorsALL/OperatorsALL.iml" filepath="$PROJECT_DIR$/4.OperatorsALL/OperatorsALL.iml" />
     </modules>
   </component>
 </project>
