@@ -27,7 +27,7 @@
 Example:
 
 ``` java
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
@@ -54,11 +54,11 @@ The Java compiler (`javac`) converts the `.java` file into a `.class`
 file.
 
 ``` text
-Main.java
+4.OperatorsALL.OperatorsALL.Main.java
     ↓
- javac Main.java
+ javac 4.OperatorsALL.OperatorsALL.Main.java
     ↓
-Main.class
+4.OperatorsALL.OperatorsALL.Main.class
 ```
 
 Important points:

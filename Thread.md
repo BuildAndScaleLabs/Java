@@ -29,7 +29,7 @@ public static void main(String[] args) throws Exception {
 
     t1.join();
 
-    System.out.println("Main Finished");
+    System.out.println("4.OperatorsALL.OperatorsALL.Main Finished");
 }
 ========================================================================================================================================================
 
@@ -44,7 +44,7 @@ Thread t1 = new Thread(() -> {
 
 t1.start();
 
-System.out.println("Main Finished");
+System.out.println("4.OperatorsALL.OperatorsALL.Main Finished");
 ========================================================================================================================================================
 what will happen in abvoe case we have two hread main thread and the t1 thread right, main thread will execute and it will create t1 object and then 
 when you main thread will execute t1.start() jvm will create a new thread inside  thread the piece of code that we have writtern will start to execute right so the code is saying while true execute so it will not stop becuase we have two thread first one i main thread and the secodn one is t1 thread main thread will finsh its exectuion it wiill stop but not the t1 thread  it will continously running right so t1 will run the froever.
@@ -59,6 +59,6 @@ t.setDaemon(true);
 
 t.start();
 
-System.out.println("Main Finished");
+System.out.println("4.OperatorsALL.OperatorsALL.Main Finished");
 ========================================================================================================================================================
 here in above case main thread will finished after execution and then jvm will cehck if there is user created thread is there so in above case it will be not so it will exit by killing daemon thread dameon thread will WorkerQueueListnerMain is user created thread they are ment to be run forever then handle lots of thing like Listen to zeromq, send heartbeat,discover nodes,process schedular request 

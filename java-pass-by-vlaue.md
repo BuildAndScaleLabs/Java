@@ -42,7 +42,7 @@ The original variable is never passed.
 # Primitive Example
 
 ```java
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
 
     static void change(int number) {
         number = 100;
@@ -156,7 +156,7 @@ class Person {
 ## Example
 
 ```java
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
 
     static void update(Person person) {
         person.name = "Rahul";
@@ -434,7 +434,7 @@ class Person {
     String name;
 }
 
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
 
     static void update(Person person) {
 

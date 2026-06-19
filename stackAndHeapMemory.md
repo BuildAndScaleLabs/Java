@@ -60,7 +60,7 @@ Whenever a method is called, JVM creates a Stack Frame.
 Example:
 
 ```java
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
 
     public static void main(String[] args) {
         int age = 25;

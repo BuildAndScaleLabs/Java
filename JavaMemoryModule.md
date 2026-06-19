@@ -17,7 +17,7 @@ JVM Process
 │
 ├── Heap (Shared by all threads)
 │
-├── Main Thread Stack
+├── 4.OperatorsALL.OperatorsALL.Main Thread Stack
 │
 ├── Thread-1 Stack
 │
@@ -254,7 +254,7 @@ The heap object may remain until Garbage Collection removes it.
 
 ---
 
-# Main Thread
+# 4.OperatorsALL.OperatorsALL.Main Thread
 
 Every Java application starts with:
 
@@ -321,7 +321,7 @@ t.start();
 Execution:
 
 ```text
-Main Thread
+4.OperatorsALL.OperatorsALL.Main Thread
 -----------
 main()
 

@@ -12,7 +12,7 @@
 What will be the output and how much time will this program take?
 
 ```java
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
 
     public static void task() {
         try {
@@ -155,7 +155,7 @@ Programmer decides behaviour.
 Predict the output.
 
 ```java
-public class Main {
+public class 4.OperatorsALL.OperatorsALL.Main {
 
     public static void main(String[] args) {
 
@@ -191,7 +191,7 @@ public class Main {
 
 ✅ `start()` creates another thread.
 
-✅ Main thread continues independently.
+✅ 4.OperatorsALL.OperatorsALL.Main thread continues independently.
 
 ---
 
@@ -206,7 +206,7 @@ Actually:
 ```text
 Worker Thread sleeps.
 
-Main Thread continues.
+4.OperatorsALL.OperatorsALL.Main Thread continues.
 ```
 
 The main thread is NOT blocked.
@@ -218,7 +218,7 @@ The main thread is NOT blocked.
 Execution:
 
 ```text
-Main Thread
+4.OperatorsALL.OperatorsALL.Main Thread
     ↓
 t.start()
     ↓
@@ -271,7 +271,7 @@ t.start();
 
 t.join();
 
-System.out.println("Main Done");
+System.out.println("4.OperatorsALL.OperatorsALL.Main Done");
 ```
 
 ---
@@ -309,7 +309,7 @@ join()
 `join()` means:
 
 ```text
-Main Thread waits until the worker thread finishes.
+4.OperatorsALL.OperatorsALL.Main Thread waits until the worker thread finishes.
 ```
 
 ---
@@ -319,7 +319,7 @@ Main Thread waits until the worker thread finishes.
 Flow:
 
 ```text
-Main Thread
+4.OperatorsALL.OperatorsALL.Main Thread
     ↓
 start worker
     ↓
@@ -332,16 +332,16 @@ sleep 5 sec
     ↓
 Worker Done
 
-Main Thread resumes
+4.OperatorsALL.OperatorsALL.Main Thread resumes
     ↓
-Main Done
+4.OperatorsALL.OperatorsALL.Main Done
 ```
 
 Output:
 
 ```text
 Worker Done
-Main Done
+4.OperatorsALL.OperatorsALL.Main Done
 ```
 
 ---
@@ -366,7 +366,7 @@ Can we guarantee output order?
 
 ## Sahil's Answer
 
-> we cannot guarantee output it is on JVM which thread get finish first that method will run first but i think everytime Main finish will be first.
+> we cannot guarantee output it is on JVM which thread get finish first that method will run first but i think everytime 4.OperatorsALL.OperatorsALL.Main finish will be first.
 
 ---
 
@@ -412,7 +412,7 @@ To understand:
 
 ## Mentor Question
 
-Why does Main usually finish first?
+Why does 4.OperatorsALL.OperatorsALL.Main usually finish first?
 
 ---
 
@@ -424,17 +424,17 @@ Why does Main usually finish first?
 
 ## What Was Correct
 
-✅ Main thread already exists.
+✅ 4.OperatorsALL.OperatorsALL.Main thread already exists.
 
 ✅ start() creates another thread.
 
-✅ Main thread continues execution.
+✅ 4.OperatorsALL.OperatorsALL.Main thread continues execution.
 
 ---
 
 ## What Needed Clarification
 
-Main finishes first because:
+4.OperatorsALL.OperatorsALL.Main finishes first because:
 
 ```text
 It has less work.
@@ -446,7 +446,7 @@ Worker thread:
 sleep 5 seconds
 ```
 
-Main thread:
+4.OperatorsALL.OperatorsALL.Main thread:
 
 ```text
 just print.
@@ -459,11 +459,11 @@ just print.
 ```text
 JVM
  ↓
-creates Main Thread
+creates 4.OperatorsALL.OperatorsALL.Main Thread
  ↓
-Main Thread starts Worker Thread
+4.OperatorsALL.OperatorsALL.Main Thread starts Worker Thread
  ↓
-Main continues
+4.OperatorsALL.OperatorsALL.Main continues
  ↓
 Worker works independently
 ```
@@ -499,9 +499,9 @@ A thread is simply an independent path of execution.
 ```text
 JVM Starts
     ↓
-Creates Main Thread
+Creates 4.OperatorsALL.OperatorsALL.Main Thread
     ↓
-Main executes code line by line
+4.OperatorsALL.OperatorsALL.Main executes code line by line
     ↓
 start()
     ↓
@@ -520,7 +520,7 @@ join() makes one thread wait for another
 
 ✅ Sequential execution.
 
-✅ Main thread exists first.
+✅ 4.OperatorsALL.OperatorsALL.Main thread exists first.
 
 ✅ start() creates another thread.
 
