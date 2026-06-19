@@ -1,5 +1,5 @@
-public class Demo3 {
-    public static void BitwiseOperator(String[] args) {
+public class BitwiseOperator {
+    public static void main(String[] args) {
 
         // =====================================================
         // BITWISE OPERATORS
