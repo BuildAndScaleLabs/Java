@@ -23,4 +23,18 @@ public class Constructor {
 //Invocation: Called automatically only during object creation.
 //Purpose: Used to initialize an object.
 //Overloading: Can be overloaded (multiple constructors with different parameter lists).
+
+//    Types of Constructors
+//    The Default Constructor (Invisible): If you do not write a constructor, the Java Compiler silently injects an empty,
+//    no-argument constructor during compilation. This is what sets your instance variables to 0 or null.
+//    Warning: Once you write any constructor manually, Java stops providing the invisible default one.
+//    Parameterized Constructor: A constructor that accepts arguments, allowing you to pass dynamic data the moment the object is created (e.g., new Student("Sahil", 28);).
+
+//    The this Keyword (Two Major Uses)
+//    The this keyword acts as a reference variable pointing to the current object being constructed or manipulated.
+//    Use Case 1: Resolving Shadowing (Field vs. Parameter)
+//    If your constructor parameter has the exact same name as your instance variable, the compiler gets confused (Variable Shadowing).
+//    Use Case 2: Constructor Chaining
+//    Instead of duplicating code across multiple overloaded constructors, one constructor can call another constructor within the same class using this(arguments).
+//    Strict Rule: The this() call MUST be the very first line inside the constructor body. If it is on the second line, it results in a Compile-Time Error.
 }
