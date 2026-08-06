@@ -1,4 +1,8 @@
-
+So basically java is pass by value  first what we do is let say we make an object so now that object store in heap  and reference variable store in stack
+so when in constructor we pass the value of reference i mean copy of value of reference that means now two reference variables actully pointing towards the object 
+now the current object in which we are writting this.filedName = filedName so we are assinging taht copy value to filedName now it will also hold the refence copy 
+now theee refernce ware pointing towords the sasme object and also we do taht because we per form servral operations on taht like in user service we declare user repo and
+inject the depedency and we access hte methods of that class because we have laredy injected the depepdency
 # 1. Objects vs References
 
 One of the biggest misconceptions is thinking a variable stores an object.
