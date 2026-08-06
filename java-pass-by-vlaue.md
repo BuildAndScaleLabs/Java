@@ -5,16 +5,7 @@
 One of the most common Java interview questions is:
 
 > Is Java Pass By Value or Pass By Reference?
-
-Many developers answer:
-
-```text
-Objects are Pass By Reference
-Primitives are Pass By Value
-```
-
-This is incorrect.
-
+> 
 Java is always:
 
 ```text
@@ -24,6 +15,9 @@ PASS BY VALUE
 For both primitives and objects.
 
 The confusion comes from how object references work.
+
+for object it actully copy the reference so copy the reference means now both the original objcted created that reference and the constructor who is holding copy value of
+the object so both is not potiing to words thesame object if you change any value from any one of them original objects values get changed because bothare poitining towords the same objects
 
 ---
 
