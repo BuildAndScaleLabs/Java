@@ -4,7 +4,8 @@ public class Constructor {
 //    Local Variables: Variables declared inside a method (e.g., int x; inside main()).
 //    Memory: Stored in the Stack.
 //    Initialization: Java does not provide default values for local variables to optimize CPU/Memory performance. If you try to print an uninitialized local variable,
-//               you get a Compile-Time Error.Instance Variables: Variables declared inside a class but outside any method (e.g., String name; inside class Student).
+//               you get a Compile-Time Error.
+//    Instance Variables: Variables declared inside a class but outside any method (e.g., String name; inside class Student).
 //    Memory: Stored in the Heap as part of the object.
 //    Initialization: Java automatically assigns Default Values to instance variables when the object is created.
 //    Integers (int, byte, short, long) -> 0
