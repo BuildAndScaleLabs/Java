@@ -3,7 +3,9 @@ import java.util.List;
 
 // we write classname in capital letter it's not compulsory but its good practice that we should write classnames first character in capital letter
 // if the file name is Main.java then that class should be public, and it should be outside as well I mean the outer class
-// public means this class can be accessible from anywhere in same package, class is name group of properties and functions
+// public means this class can be accessible from anywhere in same project in entire project you can access this class, class is name group of properties and functions
+// outside class can have only two access modifiers one is default and public default means it can only be access in same package
+// public can be access in whole project also outside class cannot be static as well it is also not aloud inner can be static, inner class also can be private
 public class Main{
 
     //inside the class we have functions

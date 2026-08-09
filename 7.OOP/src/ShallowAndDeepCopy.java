@@ -1,4 +1,4 @@
-public class ShallowDeepCopyDemo {
+public class ShallowAndDeepCopy {
 
     // Reference class
     static class Data {
