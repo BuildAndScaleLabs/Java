@@ -1,5 +1,11 @@
 public class ShallowAndDeepCopy {
+    // Shallow copy
+//    primitive → copy value
+//    reference → copy reference
 
+    // deep copy
+//    primitive → copy value
+//    reference → create NEW referenced object
     // Reference class
     static class Data {
         int value;
