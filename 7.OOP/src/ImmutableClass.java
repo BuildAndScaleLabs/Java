@@ -45,6 +45,4 @@ class College{
         this.name = name;
         this.address = address;
     }
-
-
 }
