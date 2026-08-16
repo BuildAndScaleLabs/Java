@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -23,5 +21,5 @@ public class Main {
 //        Classes: PascalCase (e.g., Student, BankAccount). Must start with a capital letter.
 //                Variables & Methods: camelCase (e.g., firstName, markAttendance()).
 //                These are not compiler rules, but ignoring them is an immediate red flag in professional environments.
-    }
+     }
 }
