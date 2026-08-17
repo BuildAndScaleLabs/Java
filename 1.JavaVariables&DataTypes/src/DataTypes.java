@@ -3,7 +3,7 @@ public class DataTypes {
     public static void main(String[] args){
 
         //In Java, all numeric integer types (byte, short, int, long) are signed, while the char type is entirely unsigned
-        //signed means number can be positive or negative , char can only be postive we represen in ascaii java stores the cahr in unicode 
+        //signed means number can be positive or negative , char can only be postive we represen in ascaii java stores the char in unicode 
 
         //datatypes is of mainly two types primitive and non-primitive
         // primitive mainly four types
